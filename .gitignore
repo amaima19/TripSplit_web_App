@@ -1,0 +1,10 @@
+# Visual Studio / IDE
+.vs/
+*.user
+*.suo
+project.lock.json
+project.fragment.lock.json
+
+# Build outputs
+bin/
+obj/
