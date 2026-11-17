@@ -1,0 +1,159 @@
+﻿@model TripSplit.Models.ViewModel.ExpenseFormViewModel
+
+@{
+    ViewData["Title"] = "Add Expense";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow mx-auto" style="max-width: 650px;">
+
+        <div class="card-header bg-success text-white">
+
+            <h3 class="mb-0">Add Expense</h3>
+
+            <small>Group: @Model.GroupName</small>
+
+        </div>
+
+        <div class="card-body">
+
+            @if (!string.IsNullOrEmpty(Model.Error))
+            {
+                <div class="alert alert-danger">
+                    @Model.Error
+                </div>
+            }
+
+            <form method="post" action="/Expense/Create">
+
+                @Html.AntiForgeryToken()
+
+                <input type="hidden"
+                       name="GroupId"
+                       value="@Model.GroupId" />
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Expense Description
+                    </label>
+
+                    <input type="text"
+                           name="Description"
+                           class="form-control"
+                           value="@Model.Description"
+                           placeholder="e.g. Dinner, Hotel, Transport"
+                           required />
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Amount (Rs)
+                    </label>
+
+                    <input type="number"
+                           name="Amount"
+                           class="form-control"
+                           value="@Model.Amount"
+                           min="1"
+                           required />
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Who Paid?
+                    </label>
+
+                    <select name="PaidById" class="form-select" required>
+
+                        <option value="">
+                            Select Member
+                        </option>
+
+                        @foreach (var member in Model.Members)
+                        {
+                            if (Model.PaidById == member.UserId)
+                            {
+                                <option value="@member.UserId" selected>
+                                    @member.Name
+                                </option>
+                            }
+                            else
+                            {
+                                <option value="@member.UserId">
+                                    @member.Name
+                                </option>
+                            }
+                        }
+
+                    </select>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Share Expense With
+                    </label>
+
+                    <p class="text-muted">
+                        Select the people who will share this expense.
+                    </p>
+
+                    @foreach (var member in Model.Members)
+                    {
+                        <div class="form-check">
+
+                            @if (Model.SharedWith.Contains(member.UserId))
+                            {
+                                <input type="checkbox"
+                                       class="form-check-input"
+                                       name="SharedWith"
+                                       value="@member.UserId"
+                                       id="@member.UserId"
+                                       checked />
+                            }
+                            else
+                            {
+                                <input type="checkbox"
+                                       class="form-check-input"
+                                       name="SharedWith"
+                                       value="@member.UserId"
+                                       id="@member.UserId" />
+                            }
+
+                            <label class="form-check-label"
+                                   for="@member.UserId">
+                                @member.Name
+                            </label>
+
+                        </div>
+                    }
+
+                </div>
+
+                <div class="mt-4">
+
+                    <button type="submit" class="btn btn-success">
+                        Save Expense
+                    </button>
+
+                    <a href="/Group/Details/@Model.GroupId"
+                       class="btn btn-secondary">
+                        Cancel
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>

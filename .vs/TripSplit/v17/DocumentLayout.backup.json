@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\project\\work\\web\\TripSplit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\repositories\\groupmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\repositories\\groupmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\repositories\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\repositories\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\views\\expense\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:views\\expense\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\views\\group\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:views\\group\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\views\\group\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:views\\group\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\interfaces\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\interfaces\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\viewmodel\\memberrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\viewmodel\\memberrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\viewmodel\\groupdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\viewmodel\\groupdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\viewmodel\\expenseformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\viewmodel\\expenseformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\viewmodel\\memberoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\viewmodel\\memberoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\viewmodel\\groupcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\viewmodel\\groupcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\viewmodel\\expenserow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\viewmodel\\expenserow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\interfaces\\iexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\interfaces\\iexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\interfaces\\igroupmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\interfaces\\igroupmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\expensesplit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\expensesplit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\groupmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\groupmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|c:\\project\\work\\web\\tripsplit\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10859B6D-5AB7-4B3C-9596-4EF45D1E3ED9}|TripSplit.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\project\\work\\web\\TripSplit\\Data\\Migrations\\20261117153953_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20261117153953_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T15:25:14.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\Repositories\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\GroupRepository.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\Repositories\\GroupRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\GroupRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T16:25:04.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupMemberRepository.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\Repositories\\GroupMemberRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\GroupMemberRepository.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\Repositories\\GroupMemberRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\GroupMemberRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T17:18:46.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpenseRepository.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\Repositories\\ExpenseRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\ExpenseRepository.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\Repositories\\ExpenseRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\ExpenseRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T17:19:07.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Views\\Expense\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Expense\\Create.cshtml",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Views\\Expense\\Create.cshtml",
+              "RelativeToolTip": "Views\\Expense\\Create.cshtml",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAmwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T18:47:27.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Views\\Group\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Group\\Create.cshtml",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Views\\Group\\Create.cshtml",
+              "RelativeToolTip": "Views\\Group\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T18:45:39.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Views\\Group\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Group\\Detail.cshtml",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Views\\Group\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Group\\Detail.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAmwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T17:55:11.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Views\\Group\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Group\\Index.cshtml",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Views\\Group\\Index.cshtml",
+              "RelativeToolTip": "Views\\Group\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T18:45:11.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGroupRepository.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\Interfaces\\IGroupRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IGroupRepository.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\Interfaces\\IGroupRepository.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T16:03:11.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Controllers\\GroupController.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAWwOIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T17:29:56.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MemberRow.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\MemberRow.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\MemberRow.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\MemberRow.cs",
+              "RelativeToolTip": "Models\\ViewModel\\MemberRow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T18:32:46.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GroupDetailView.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\GroupDetailView.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\GroupDetailView.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\GroupDetailView.cs",
+              "RelativeToolTip": "Models\\ViewModel\\GroupDetailView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T18:32:20.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExpenseFormViewModel.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\ExpenseFormViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\ExpenseFormViewModel.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\ExpenseFormViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\ExpenseFormViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T18:06:19.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MemberOption.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\MemberOption.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\MemberOption.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\MemberOption.cs",
+              "RelativeToolTip": "Models\\ViewModel\\MemberOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T18:07:42.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GroupCardViewModel.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\GroupCardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\GroupCardViewModel.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\GroupCardViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\GroupCardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T18:07:17.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExpenseRow.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\ExpenseRow.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\ExpenseRow.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\ViewModel\\ExpenseRow.cs",
+              "RelativeToolTip": "Models\\ViewModel\\ExpenseRow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T18:06:42.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IExpenseRepository.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\Interfaces\\IExpenseRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IExpenseRepository.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\Interfaces\\IExpenseRepository.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IExpenseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T16:05:52.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAcwNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T17:49:14.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGroupMemberRepository.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\Interfaces\\IGroupMemberRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IGroupMemberRepository.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\Interfaces\\IGroupMemberRepository.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IGroupMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T16:05:24.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T15:46:09.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T14:50:24.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExpenseSplit.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\ExpenseSplit.cs",
+              "RelativeDocumentMoniker": "Models\\ExpenseSplit.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\ExpenseSplit.cs",
+              "RelativeToolTip": "Models\\ExpenseSplit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T14:46:00.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T15:21:53.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GroupMember.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\GroupMember.cs",
+              "RelativeDocumentMoniker": "Models\\GroupMember.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\GroupMember.cs",
+              "RelativeToolTip": "Models\\GroupMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:16:45.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "Models\\Expense.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\Expense.cs",
+              "RelativeToolTip": "Models\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T15:07:56.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Data\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Data\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Data\\DbConnectionFactory.cs",
+              "RelativeToolTip": "Data\\DbConnectionFactory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T17:11:44.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-17T15:39:03.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "Models\\Group.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Models\\Group.cs",
+              "RelativeToolTip": "Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T16:51:00.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAUwH8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T15:52:58.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T14:57:47.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T15:52:36.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T15:46:01.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T15:45:58.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20261117153953_InitialCreate.cs",
+              "DocumentMoniker": "C:\\project\\work\\web\\TripSplit\\Data\\Migrations\\20261117153953_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20261117153953_InitialCreate.cs",
+              "ToolTip": "C:\\project\\work\\web\\TripSplit\\Data\\Migrations\\20261117153953_InitialCreate.cs",
+              "RelativeToolTip": "Data\\Migrations\\20261117153953_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T15:39:53.872Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

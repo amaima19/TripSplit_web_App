@@ -1,0 +1,164 @@
+﻿@model TripSplit.Models.ViewModel.GroupDetailsViewModel
+
+@{
+    ViewData["Title"] = Model.Group.Name;
+}
+
+<div class="container mt-4">
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Message"]
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+            <h2>@Model.Group.Name</h2>
+
+            <p class="text-muted">
+                @(Model.IsAdmin ? "You are the admin" : "You are a member")
+            </p>
+        </div>
+
+        <a href="/Expense/Create?groupId=@Model.Group.Id"
+           class="btn btn-success">
+            + Add Expense
+        </a>
+
+    </div>
+
+    <div class="row">
+
+        <!-- Expenses -->
+
+        <div class="col-lg-7 mb-4">
+
+            <div class="card shadow p-3">
+
+                <h4>Expenses</h4>
+
+                @if (Model.Expenses.Count == 0)
+                {
+                    <p class="text-muted">
+                        No expenses yet. Add your first expense!
+                    </p>
+                }
+                else
+                {
+                    <div class="table-responsive">
+
+                        <table class="table table-striped">
+
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Paid By</th>
+                                    <th>Amount</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                @foreach (var expense in Model.Expenses)
+                                {
+                                    <tr>
+                                        <td>@expense.Description</td>
+                                        <td>@expense.PaidByName</td>
+                                        <td>Rs @expense.Amount</td>
+                                        <td>@expense.Date.ToString("dd MMM yyyy")</td>
+                                    </tr>
+                                }
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                }
+
+            </div>
+
+        </div>
+
+        <!-- Members -->
+
+        <div class="col-lg-5 mb-4">
+
+            <div class="card shadow p-3">
+
+                <h4>Members</h4>
+
+                <ul class="list-group list-group-flush mb-3">
+
+                    @foreach (var member in Model.Members)
+                    {
+                        <li class="list-group-item">
+
+                            @member.Name
+
+                            @if (member.Role == "Admin")
+                            {
+                                <span class="badge bg-primary">
+                                    Admin
+                                </span>
+                            }
+
+                        </li>
+                    }
+
+                </ul>
+
+                @if (Model.IsAdmin)
+                {
+                    <form method="post" action="/Group/AddMember">
+
+                        @Html.AntiForgeryToken()
+
+                        <input type="hidden"
+                               name="groupId"
+                               value="@Model.Group.Id" />
+
+                        <label class="form-label">
+                            Add Member by Email
+                        </label>
+
+                        <div class="input-group">
+
+                            <input type="email"
+                                   name="email"
+                                   class="form-control"
+                                   placeholder="friend@example.com"
+                                   required />
+
+                            <button type="submit"
+                                    class="btn btn-primary">
+                                Add
+                            </button>
+
+                        </div>
+
+                    </form>
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <a href="/Group/Index" class="btn btn-secondary">
+        Back to My Groups
+    </a>
+
+</div>
